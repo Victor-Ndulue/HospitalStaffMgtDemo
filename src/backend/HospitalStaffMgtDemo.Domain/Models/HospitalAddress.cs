@@ -15,6 +15,6 @@ namespace HospitalStaffMgtDemo.Domain.Models
         public string? City { get; set; }
         public int Zip_PostalCode { get; set; }
         public string? State_Province { get; set; }
-        public ICollection <Hospital>? Hospitals { get; set; }
+        public ICollection <Hospital>? Hospital { get; set; }
     }
 }
